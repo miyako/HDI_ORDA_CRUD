@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI_Title" resname="HDI_Title">
+				<source>get started with create, update, and delete actions in the dataStore?</source>
+				<target>データストアで作成・更新・削除を始めるには？</target>
+			</trans-unit>
+			<trans-unit id="HDI_Info" resname="HDI_Info">
+				<source>DataStore handling</source>
+				<target>データストアの操作</target>
+			</trans-unit>
+			<trans-unit id="BtnClose" resname="BtnClose">
+				<source>Close</source>
+				<target>閉じる</target>
+			</trans-unit>
+			<trans-unit id="ErrorViewProMain" resname="ErrorViewProMain">
+				<source>Sorry, this “How do I” (HDI) example demonstrates a 4D View Pro feature.</source>
+				<target>このHDI（How do I）サンプルは4D View Proの機能を紹介しています。</target>
+			</trans-unit>
+			<trans-unit id="ErrorViewProSub" resname="ErrorViewProSub">
+				<source>You must have a valid 4D View Pro license to continue.</source>
+				<target>続行するには有効な4D View Proライセンスが必要です。</target>
+			</trans-unit>
+			<trans-unit id="ErrorWriteProMain" resname="ErrorWriteProMain">
+				<source>Sorry, this “How do I” (HDI) example demonstrates a 4D Write Pro feature.</source>
+				<target>このHDI（How do I）サンプルは4D Write Proの機能を紹介しています。</target>
+			</trans-unit>
+			<trans-unit id="ErrorWriteProSub" resname="ErrorWriteProSub">
+				<source>You must have a valid 4D Write Pro license to continue.</source>
+				<target>続行するには有効な4D Write Proライセンスが必要です。</target>
+			</trans-unit>
+			<trans-unit id="AlertEnterValidName" resname="AlertEnterValidName">
+				<source>Enter valid first name and last name</source>
+				<target>有効な名前（名・姓）を入力してください</target>
+			</trans-unit>
+			<trans-unit id="AlertContactDropped" resname="AlertContactDropped">
+				<source>You have dropped the {firstName} {lastName} contact</source>
+				<target>連絡先 {lastName} {firstName} を削除しました</target>
+			</trans-unit>
+			<trans-unit id="AlertContactsDropped" resname="AlertContactsDropped">
+				<source>You have dropped {count} contacts</source>
+				<target>{count} 件の連絡先を削除しました</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

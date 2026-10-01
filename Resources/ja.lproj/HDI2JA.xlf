@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI2_QueryIntro" resname="HDI2_QueryIntro">
+				<source>In this part you will learn how to query the DataStore</source>
+				<target>この部分では、データストアをクエリする方法を学びます</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ListOfContacts" resname="HDI2_ListOfContacts">
+				<source>List of contacts</source>
+				<target>連絡先の一覧</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnUpdate" resname="HDI2_BtnUpdate">
+				<source>Update</source>
+				<target>更新</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnCreate" resname="HDI2_BtnCreate">
+				<source>Create</source>
+				<target>作成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_UpdateSuccess" resname="HDI2_UpdateSuccess">
+				<source>The update action was successful</source>
+				<target>更新に成功しました</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CreateSuccess" resname="HDI2_CreateSuccess">
+				<source>The create action was successful</source>
+				<target>作成に成功しました</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CreateNewContact" resname="HDI2_CreateNewContact">
+				<source>Create a new contact</source>
+				<target>新しい連絡先を作成</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SelectAndUpdate" resname="HDI2_SelectAndUpdate">
+				<source>Select a contact and update it</source>
+				<target>連絡先を選択して更新</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NumberOfContacts" resname="HDI2_NumberOfContacts">
+				<source>Number of contacts:</source>
+				<target>連絡先の数:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_FirstName" resname="HDI2_FirstName">
+				<source>First name</source>
+				<target>名</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LastName" resname="HDI2_LastName">
+				<source>Last name</source>
+				<target>姓</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Trace" resname="HDI2_Trace">
+				<source>Trace</source>
+				<target>トレース</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SelectCompany" resname="HDI2_SelectCompany">
+				<source>Select a company</source>
+				<target>会社を選択</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Companies" resname="HDI2_Companies">
+				<source>Companies</source>
+				<target>会社</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Company" resname="HDI2_Company">
+				<source>Company</source>
+				<target>会社</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnDropContacts" resname="HDI2_BtnDropContacts">
+				<source>Drop contact(s)</source>
+				<target>連絡先を削除</target>
+			</trans-unit>
+			<trans-unit id="HDI2_DropSuccess" resname="HDI2_DropSuccess">
+				<source>The drop contact action was successful</source>
+				<target>連絡先の削除に成功しました</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

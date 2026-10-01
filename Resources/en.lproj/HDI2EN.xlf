@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="HDI2" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_QueryIntro" resname="HDI2_QueryIntro">
+				<source>In this part you will learn how to query the DataStore</source>
+				<target>In this part you will learn how to query the DataStore</target>
+			</trans-unit>
+			<trans-unit id="HDI2_ListOfContacts" resname="HDI2_ListOfContacts">
+				<source>List of contacts</source>
+				<target>List of contacts</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnUpdate" resname="HDI2_BtnUpdate">
+				<source>Update</source>
+				<target>Update</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnCreate" resname="HDI2_BtnCreate">
+				<source>Create</source>
+				<target>Create</target>
+			</trans-unit>
+			<trans-unit id="HDI2_UpdateSuccess" resname="HDI2_UpdateSuccess">
+				<source>The update action was successful</source>
+				<target>The update action was successful</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CreateSuccess" resname="HDI2_CreateSuccess">
+				<source>The create action was successful</source>
+				<target>The create action was successful</target>
+			</trans-unit>
+			<trans-unit id="HDI2_CreateNewContact" resname="HDI2_CreateNewContact">
+				<source>Create a new contact</source>
+				<target>Create a new contact</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SelectAndUpdate" resname="HDI2_SelectAndUpdate">
+				<source>Select a contact and update it</source>
+				<target>Select a contact and update it</target>
+			</trans-unit>
+			<trans-unit id="HDI2_NumberOfContacts" resname="HDI2_NumberOfContacts">
+				<source>Number of contacts:</source>
+				<target>Number of contacts:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_FirstName" resname="HDI2_FirstName">
+				<source>First name</source>
+				<target>First name</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LastName" resname="HDI2_LastName">
+				<source>Last name</source>
+				<target>Last name</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Trace" resname="HDI2_Trace">
+				<source>Trace</source>
+				<target>Trace</target>
+			</trans-unit>
+			<trans-unit id="HDI2_SelectCompany" resname="HDI2_SelectCompany">
+				<source>Select a company</source>
+				<target>Select a company</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Companies" resname="HDI2_Companies">
+				<source>Companies</source>
+				<target>Companies</target>
+			</trans-unit>
+			<trans-unit id="HDI2_Company" resname="HDI2_Company">
+				<source>Company</source>
+				<target>Company</target>
+			</trans-unit>
+			<trans-unit id="HDI2_BtnDropContacts" resname="HDI2_BtnDropContacts">
+				<source>Drop contact(s)</source>
+				<target>Drop contact(s)</target>
+			</trans-unit>
+			<trans-unit id="HDI2_DropSuccess" resname="HDI2_DropSuccess">
+				<source>The drop contact action was successful</source>
+				<target>The drop contact action was successful</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

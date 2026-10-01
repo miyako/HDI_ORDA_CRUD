@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="tableForms" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="TF_Info" resname="TF_Info">
+				<source>INFO</source>
+				<target>INFO</target>
+			</trans-unit>
+			<trans-unit id="TF_Page" resname="TF_Page">
+				<source>Page:</source>
+				<target>ページ:</target>
+			</trans-unit>
+			<trans-unit id="TF_Title" resname="TF_Title">
+				<source>Title</source>
+				<target>タイトル</target>
+			</trans-unit>
+			<trans-unit id="TF_ID" resname="TF_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="TF_Employee" resname="TF_Employee">
+				<source>Employee</source>
+				<target>従業員</target>
+			</trans-unit>
+			<trans-unit id="TF_FirstName" resname="TF_FirstName">
+				<source>firstname : </source>
+				<target>名 : </target>
+			</trans-unit>
+			<trans-unit id="TF_LastName" resname="TF_LastName">
+				<source>lastName : </source>
+				<target>姓 : </target>
+			</trans-unit>
+			<trans-unit id="TF_ManagerID" resname="TF_ManagerID">
+				<source>managerID : </source>
+				<target>マネージャID : </target>
+			</trans-unit>
+			<trans-unit id="TF_EmployerID" resname="TF_EmployerID">
+				<source>employerID : </source>
+				<target>雇用者ID : </target>
+			</trans-unit>
+			<trans-unit id="TF_Salary" resname="TF_Salary">
+				<source>salary : </source>
+				<target>給与 : </target>
+			</trans-unit>
+			<trans-unit id="TF_Company" resname="TF_Company">
+				<source>Company</source>
+				<target>会社</target>
+			</trans-unit>
+			<trans-unit id="TF_Name" resname="TF_Name">
+				<source>name : </source>
+				<target>名前 : </target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
