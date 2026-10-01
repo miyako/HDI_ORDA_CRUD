@@ -1,6 +1,6 @@
-//%attributes = {}
-C_TEXT:C284($txtContacts; $txtCompanies)
-C_COLLECTION:C1488($contactsColl; $companiesColl)
+//%attributes = {"invisible":true}
+var $txtContacts; $txtCompanies : Text
+var $contactsColl; $companiesColl : Collection
 
 
 If (ds:C1482.Contact.all().length=0)

@@ -1,5 +1,4 @@
-C_OBJECT:C1216($status)
-C_OBJECT:C1216($notDropped)
+var $status; $notDropped : Object
 
 If (btnTrace)
 	TRACE:C157
@@ -14,7 +13,7 @@ Case of
 		If ($status.success)
 			OBJECT SET VISIBLE:C603(*; "dropContactMessageOKText"; True:C214)
 			Form:C1466.contacts:=ds:C1482.Contact.all()
-			ALERT:C41("You have dropped the "+Form:C1466.contactToDelete.firstName+" "+Form:C1466.contactToDelete.lastName+" contact")
+			ALERT:C41(Replace string:C233(Replace string:C233(Localized string("AlertContactDropped"); "{firstName}"; Form:C1466.contactToDelete.firstName); "{lastName}"; Form:C1466.contactToDelete.lastName))
 		End if 
 		
 	: (Form:C1466.contactsListToDelete.length>=2)  // Several contacts are selected to be dropped. They are provided in entity selection Form.contactsListToDelete
@@ -24,7 +23,7 @@ Case of
 		If ($notDropped.length=0)  // The drop action is successfull
 			OBJECT SET VISIBLE:C603(*; "dropContactMessageOKText"; True:C214)
 			Form:C1466.contacts:=ds:C1482.Contact.all()
-			ALERT:C41("You have dropped "+String:C10(Form:C1466.contactsListToDelete.length)+" contacts")
+			ALERT:C41(Replace string:C233(Localized string("AlertContactsDropped"); "{count}"; String:C10(Form:C1466.contactsListToDelete.length)))
 		End if 
 		
 End case 

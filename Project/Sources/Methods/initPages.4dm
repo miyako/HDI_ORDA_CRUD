@@ -1,6 +1,4 @@
-//%attributes = {}
-C_BOOLEAN:C305(btnTrace)
-
+//%attributes = {"invisible":true}
 //Business logic related to the DataStore
 
 Form:C1466.contacts:=ds:C1482.Contact.all()

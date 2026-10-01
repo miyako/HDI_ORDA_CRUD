@@ -1,4 +1,4 @@
-C_OBJECT:C1216($status)
+var $status : Object
 
 If (btnTrace)
 	TRACE:C157

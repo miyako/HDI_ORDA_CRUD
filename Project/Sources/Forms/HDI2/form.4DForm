@@ -53,7 +53,8 @@
 					"fontFamily": "System Font",
 					"fontSize": 14,
 					"fontWeight": "bold",
-					"text": "In this part you will learn how to query the DataStore"
+					"text": ":xliff:HDI2_QueryIntro",
+					"stroke": "automatic"
 				},
 				"information4": {
 					"type": "input",
@@ -73,7 +74,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information3": {
 					"type": "input",
@@ -93,7 +95,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"HDIpicture": {
 					"type": "picture",
@@ -126,7 +129,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"listBoxSave": {
 					"type": "listbox",
@@ -158,9 +162,6 @@
 							"width": 200,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -169,7 +170,7 @@
 							],
 							"header": {
 								"name": "Header1",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -179,8 +180,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -188,9 +191,6 @@
 							"width": 200,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -199,7 +199,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -209,10 +209,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Text6": {
 					"type": "text",
@@ -221,21 +226,22 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "List of contacts"
+					"text": ":xliff:HDI2_ListOfContacts",
+					"stroke": "automatic"
 				},
 				"UpdateButton": {
 					"type": "button",
 					"top": 400,
 					"left": 735,
 					"width": 100,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Update",
+					"text": ":xliff:HDI2_BtnUpdate",
 					"focusable": false,
 					"method": "ObjectMethods/UpdateButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"updateContactMessageOKText": {
 					"type": "text",
@@ -244,23 +250,23 @@
 					"width": 280,
 					"height": 19,
 					"sizingY": "move",
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "The update action was successful"
+					"text": ":xliff:HDI2_UpdateSuccess",
+					"class": "success-message"
 				},
 				"Button2": {
 					"type": "button",
 					"top": 560,
 					"left": 735,
 					"width": 100,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Create",
+					"text": ":xliff:HDI2_BtnCreate",
 					"focusable": false,
 					"method": "ObjectMethods/Button2.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text11": {
 					"type": "text",
@@ -270,7 +276,8 @@
 					"height": 15,
 					"sizingY": "move",
 					"fontWeight": "bold",
-					"text": "Create a new contact"
+					"text": ":xliff:HDI2_CreateNewContact",
+					"stroke": "automatic"
 				},
 				"createMessageOKText": {
 					"type": "text",
@@ -279,9 +286,9 @@
 					"width": 280,
 					"height": 18,
 					"sizingY": "move",
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "The create action was successful"
+					"text": ":xliff:HDI2_CreateSuccess",
+					"class": "success-message"
 				},
 				"Text18": {
 					"type": "text",
@@ -291,7 +298,8 @@
 					"height": 15,
 					"sizingY": "move",
 					"fontWeight": "bold",
-					"text": "Select a contact and update it"
+					"text": ":xliff:HDI2_SelectAndUpdate",
+					"stroke": "automatic"
 				},
 				"Line2": {
 					"type": "line",
@@ -299,7 +307,7 @@
 					"left": 60,
 					"width": 775,
 					"sizingY": "move",
-					"stroke": "#696969"
+					"class": "hdi-muted"
 				},
 				"Line3": {
 					"type": "line",
@@ -307,7 +315,7 @@
 					"left": 60,
 					"width": 775,
 					"sizingY": "move",
-					"stroke": "#696969"
+					"class": "hdi-muted"
 				},
 				"Text10": {
 					"type": "text",
@@ -317,7 +325,8 @@
 					"height": 19,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Number of contacts:"
+					"text": ":xliff:HDI2_NumberOfContacts",
+					"stroke": "automatic"
 				},
 				"Variable1": {
 					"type": "input",
@@ -330,7 +339,8 @@
 					"focusable": false,
 					"enterable": false,
 					"dragging": "none",
-					"dropping": "none"
+					"dropping": "none",
+					"stroke": "automatic"
 				},
 				"Variable3": {
 					"type": "input",
@@ -344,7 +354,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text12": {
 					"type": "text",
@@ -354,7 +365,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "First name"
+					"text": ":xliff:HDI2_FirstName",
+					"stroke": "automatic"
 				},
 				"Variable4": {
 					"type": "input",
@@ -368,7 +380,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Variable6": {
 					"type": "input",
@@ -379,7 +392,8 @@
 					"sizingY": "move",
 					"dataSource": "Form:C1466.contactToCreate.firstName",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				},
 				"Variable7": {
 					"type": "input",
@@ -390,7 +404,8 @@
 					"sizingY": "move",
 					"dataSource": "Form:C1466.contactToCreate.lastName",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				},
 				"Text13": {
 					"type": "text",
@@ -400,7 +415,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "First name"
+					"text": ":xliff:HDI2_FirstName",
+					"stroke": "automatic"
 				},
 				"Text14": {
 					"type": "text",
@@ -410,7 +426,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Last name"
+					"text": ":xliff:HDI2_LastName",
+					"stroke": "automatic"
 				},
 				"Text15": {
 					"type": "text",
@@ -420,7 +437,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Last name"
+					"text": ":xliff:HDI2_LastName",
+					"stroke": "automatic"
 				},
 				"Check Box2": {
 					"type": "checkbox",
@@ -430,11 +448,12 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -458,7 +477,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"listBoxSaveWithCompany": {
 					"type": "listbox",
@@ -490,9 +510,6 @@
 							"width": 200,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -501,7 +518,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -511,8 +528,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column6",
@@ -520,9 +539,6 @@
 							"width": 200,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -531,7 +547,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -541,8 +557,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column7",
@@ -550,9 +568,6 @@
 							"width": 200,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -561,7 +576,7 @@
 							],
 							"header": {
 								"name": "Header6",
-								"text": "Company",
+								"text": ":xliff:HDI2_Company",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -571,10 +586,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Text1": {
 					"type": "text",
@@ -583,7 +603,8 @@
 					"width": 190,
 					"height": 20,
 					"fontWeight": "bold",
-					"text": "List of contacts"
+					"text": ":xliff:HDI2_ListOfContacts",
+					"stroke": "automatic"
 				},
 				"Variable5": {
 					"type": "input",
@@ -597,7 +618,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"Text2": {
 					"type": "text",
@@ -607,7 +629,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "First name"
+					"text": ":xliff:HDI2_FirstName",
+					"stroke": "automatic"
 				},
 				"Variable15": {
 					"type": "input",
@@ -621,21 +644,22 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"UpdateWithCompanyButton": {
 					"type": "button",
 					"top": 510,
 					"left": 735,
 					"width": 100,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Update",
+					"text": ":xliff:HDI2_BtnUpdate",
 					"focusable": false,
 					"method": "ObjectMethods/UpdateWithCompanyButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"updateContactMessageOKText1": {
 					"type": "text",
@@ -644,23 +668,23 @@
 					"width": 280,
 					"height": 20,
 					"sizingY": "move",
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "The update action was successful"
+					"text": ":xliff:HDI2_UpdateSuccess",
+					"class": "success-message"
 				},
 				"Button1": {
 					"type": "button",
 					"top": 670,
 					"left": 735,
 					"width": 100,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Create",
+					"text": ":xliff:HDI2_BtnCreate",
 					"focusable": false,
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"Text22": {
 					"type": "text",
@@ -670,7 +694,8 @@
 					"height": 15,
 					"sizingY": "move",
 					"fontWeight": "bold",
-					"text": "Create a new contact"
+					"text": ":xliff:HDI2_CreateNewContact",
+					"stroke": "automatic"
 				},
 				"Variable18": {
 					"type": "input",
@@ -681,7 +706,8 @@
 					"sizingY": "move",
 					"dataSource": "Form:C1466.contactToCreate.firstName",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				},
 				"Variable19": {
 					"type": "input",
@@ -692,7 +718,8 @@
 					"sizingY": "move",
 					"dataSource": "Form:C1466.contactToCreate.lastName",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				},
 				"createMessageOKText1": {
 					"type": "text",
@@ -701,9 +728,9 @@
 					"width": 280,
 					"height": 20,
 					"sizingY": "move",
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "The create action was successful"
+					"text": ":xliff:HDI2_CreateSuccess",
+					"class": "success-message"
 				},
 				"Text29": {
 					"type": "text",
@@ -713,7 +740,8 @@
 					"height": 15,
 					"sizingY": "move",
 					"fontWeight": "bold",
-					"text": "Select a contact and update it"
+					"text": ":xliff:HDI2_SelectAndUpdate",
+					"stroke": "automatic"
 				},
 				"Line1": {
 					"type": "line",
@@ -721,7 +749,7 @@
 					"left": 60,
 					"width": 775,
 					"sizingY": "move",
-					"stroke": "#696969"
+					"class": "hdi-muted"
 				},
 				"Line4": {
 					"type": "line",
@@ -729,7 +757,7 @@
 					"left": 60,
 					"width": 775,
 					"sizingY": "move",
-					"stroke": "#696969"
+					"class": "hdi-muted"
 				},
 				"Text30": {
 					"type": "text",
@@ -739,7 +767,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Number of contacts:"
+					"text": ":xliff:HDI2_NumberOfContacts",
+					"stroke": "automatic"
 				},
 				"Variable24": {
 					"type": "input",
@@ -752,7 +781,8 @@
 					"focusable": false,
 					"enterable": false,
 					"dragging": "none",
-					"dropping": "none"
+					"dropping": "none",
+					"stroke": "automatic"
 				},
 				"Text33": {
 					"type": "text",
@@ -762,7 +792,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "First name"
+					"text": ":xliff:HDI2_FirstName",
+					"stroke": "automatic"
 				},
 				"Text34": {
 					"type": "text",
@@ -772,7 +803,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Last name"
+					"text": ":xliff:HDI2_LastName",
+					"stroke": "automatic"
 				},
 				"Text3": {
 					"type": "text",
@@ -782,7 +814,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Select a company"
+					"text": ":xliff:HDI2_SelectCompany",
+					"stroke": "automatic"
 				},
 				"listBoxCompaniesForUpdate": {
 					"type": "listbox",
@@ -813,9 +846,6 @@
 							"width": 171,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -824,7 +854,7 @@
 							],
 							"header": {
 								"name": "Header3",
-								"text": "Companies",
+								"text": ":xliff:HDI2_Companies",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -834,10 +864,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"listBoxCompaniesForCreate": {
 					"type": "listbox",
@@ -868,9 +903,6 @@
 							"width": 171,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -879,7 +911,7 @@
 							],
 							"header": {
 								"name": "Header7",
-								"text": "Companies",
+								"text": ":xliff:HDI2_Companies",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -889,10 +921,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Text9": {
 					"type": "text",
@@ -902,7 +939,8 @@
 					"height": 20,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Select a company"
+					"text": ":xliff:HDI2_SelectCompany",
+					"stroke": "automatic"
 				},
 				"Text4": {
 					"type": "text",
@@ -912,7 +950,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Last name"
+					"text": ":xliff:HDI2_LastName",
+					"stroke": "automatic"
 				},
 				"Check Box1": {
 					"type": "checkbox",
@@ -922,11 +961,12 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -939,21 +979,22 @@
 					"width": 190,
 					"height": 17,
 					"fontWeight": "bold",
-					"text": "List of contacts"
+					"text": ":xliff:HDI2_ListOfContacts",
+					"stroke": "automatic"
 				},
 				"DropContactsButton": {
 					"type": "button",
 					"top": 430,
 					"left": 60,
 					"width": 130,
-					"height": 20,
 					"sizingY": "move",
-					"text": "Drop contact(s)",
+					"text": ":xliff:HDI2_BtnDropContacts",
 					"focusable": false,
 					"method": "ObjectMethods/DropContactsButton.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"class": "default"
 				},
 				"dropContactMessageOKText": {
 					"type": "text",
@@ -962,9 +1003,9 @@
 					"width": 280,
 					"height": 17,
 					"sizingY": "move",
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "The drop contact action was successful"
+					"text": ":xliff:HDI2_DropSuccess",
+					"class": "success-message"
 				},
 				"listBoxDrop1": {
 					"type": "listbox",
@@ -996,9 +1037,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1007,7 +1045,7 @@
 							],
 							"header": {
 								"name": "Header14",
-								"text": "First name",
+								"text": ":xliff:HDI2_FirstName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1017,8 +1055,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column16",
@@ -1026,9 +1066,6 @@
 							"width": 150,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1037,7 +1074,7 @@
 							],
 							"header": {
 								"name": "Header15",
-								"text": "Last name",
+								"text": ":xliff:HDI2_LastName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1047,8 +1084,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column17",
@@ -1056,9 +1095,6 @@
 							"width": 300,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -1067,7 +1103,7 @@
 							],
 							"header": {
 								"name": "Header16",
-								"text": "Company",
+								"text": ":xliff:HDI2_Company",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -1077,10 +1113,15 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
-					]
+					],
+					"stroke": "automatic",
+					"fill": "automatic",
+					"alternateFill": "automaticAlternate"
 				},
 				"Check Box3": {
 					"type": "checkbox",
@@ -1090,11 +1131,12 @@
 					"height": 20,
 					"sizingY": "move",
 					"dataSource": "btnTrace",
-					"text": "Trace",
+					"text": ":xliff:HDI2_Trace",
 					"focusable": false,
 					"events": [
 						"onClick"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"information5": {
 					"type": "input",
@@ -1114,7 +1156,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"updateContactButton2Direction1": {
 					"type": "input",
@@ -1131,7 +1174,8 @@
 					"styledText": true,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				},
 				"Text8": {
 					"type": "text",
@@ -1141,7 +1185,8 @@
 					"height": 17,
 					"sizingY": "move",
 					"textAlign": "right",
-					"text": "Number of contacts:"
+					"text": ":xliff:HDI2_NumberOfContacts",
+					"stroke": "automatic"
 				},
 				"Variable2": {
 					"type": "input",
@@ -1154,7 +1199,8 @@
 					"focusable": false,
 					"enterable": false,
 					"dragging": "none",
-					"dropping": "none"
+					"dropping": "none",
+					"stroke": "automatic"
 				},
 				"updateContactButton2Direction2": {
 					"type": "input",
@@ -1171,7 +1217,8 @@
 					"styledText": true,
 					"contextMenu": "none",
 					"dragging": "none",
-					"dropping": "custom"
+					"dropping": "custom",
+					"stroke": "automatic"
 				}
 			}
 		}

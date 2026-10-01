@@ -1,11 +1,11 @@
-C_OBJECT:C1216($status)
+var $status : Object
 
 If (btnTrace)
 	TRACE:C157
 End if 
 
 If ((Form:C1466.contactToCreate.firstName="") | (Form:C1466.contactToCreate.lastName=""))
-	ALERT:C41("Enter valid first name and last name")
+	ALERT:C41(Localized string("AlertEnterValidName"))
 	
 Else 
 	
